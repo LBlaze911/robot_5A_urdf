@@ -1,1 +1,0 @@
-controller_joint_names: ['', 'Joint_1', 'Joint_2', 'Joint_3', 'Joint_4', 'joint_5', 'Joint_Gripper_Arm_Left_Link_5', 'Joint_Gripper_Tip_Left_Gripper_Arm_Left', 'Joint_Gripper_Arm_Right_Link_5', 'Joint_Gripper_Tip_Right_Gripper_Arm_Right', 'Joint_Gripper_Pivot_Left_Link_5', 'Joint_Gripper_Pivot_Right_Link_5', ]
