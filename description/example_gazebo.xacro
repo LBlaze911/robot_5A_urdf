@@ -12,7 +12,7 @@
     <!-- Instead, we need to add gazebo tags for our links that refer to Gazebo materials -->
 
 
-    <gazebo reference="base_link">
+<!--    <gazebo reference="base_link">
         <material>Gazebo/Green</material>
     </gazebo>
 
@@ -23,7 +23,7 @@
     <gazebo reference="arm_link">
         <material>Gazebo/Orange</material>
     </gazebo>
-
+-->
 
 
 

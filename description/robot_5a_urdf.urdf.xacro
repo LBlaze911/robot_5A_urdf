@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="robot_5a_urdf">
 
-    <xacro:include filename="example_include.xacro" />
+    <!--<xacro:include filename="example_include.xacro" />-->
 
     <link name="world"></link>
 
@@ -63,7 +63,7 @@
       <parent link="base_link"/>
       <child link="Link_1"/>
       <axis xyz="0 1 0"/>
-      <limit lower="0" upper="0" effort="0" velocity="0"/>
+      <limit lower="-1.5707" upper="1.5707" effort="5" velocity="1"/>
     </joint>
 
     <link name="Link_2">
@@ -95,7 +95,7 @@
       <parent link="Link_1"/>
       <child link="Link_2"/>
       <axis xyz="1 0 0"/>
-      <limit lower="0" upper="0" effort="0" velocity="0"/>
+      <limit lower="-1.5707" upper="1.5707" effort="5" velocity="1"/>
     </joint>
 
     <link name="Link_3">
@@ -127,7 +127,7 @@
       <parent link="Link_2"/>
       <child link="Link_3"/>
       <axis xyz="0 1 0"/>
-      <limit lower="0" upper="0" effort="0" velocity="0"/>
+      <limit lower="-1.5707" upper="1.5707" effort="5" velocity="1"/>
     </joint>
 
     <link name="Link_4">
@@ -159,7 +159,7 @@
       <parent link="Link_3"/>
       <child link="Link_4"/>
       <axis xyz="0 1 0"/>
-      <limit lower="0" upper="0" effort="0" velocity="0"/>
+      <limit lower="-1.5707" upper="1.5707" effort="5" velocity="1"/>
     </joint>
 
     <link name="Link_5">
@@ -191,9 +191,9 @@
       <parent link="Link_4"/>
       <child link="Link_5"/>
       <axis xyz="0 1 0"/>
-      <limit lower="0" upper="0" effort="0" velocity="0"/>
+      <limit lower="-1.5707" upper="1.5707" effort="5" velocity="1"/>
     </joint>
 
-    <xacro:include filename="example_gazebo.xacro" />
+    <!--<xacro:include filename="example_gazebo.xacro" />-->
 
 </robot>

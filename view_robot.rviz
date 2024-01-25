@@ -50,9 +50,15 @@ Visualization Manager:
           Value: true
         base_link:
           Value: true
-        camera_link:
+        Link_1:
           Value: true
-        slider_link:
+        Link_2:
+          Value: true
+        Link_3:
+          Value: true
+        Link_4:
+          Value: true
+        Link_5:
           Value: true
         world:
           Value: true
@@ -64,10 +70,12 @@ Visualization Manager:
       Tree:
         world:
           base_link:
-            slider_link:
-              arm_link:
-                camera_link:
-                  {}
+            Link_1:
+              Link_2:
+                Link_3:
+                  Link_4:
+                    Link_5:
+                      {}
       Update Interval: 0
       Value: true
     - Alpha: 0.800000011920929
@@ -88,22 +96,32 @@ Visualization Manager:
         Expand Link Details: false
         Expand Tree: false
         Link Tree Style: Links in Alphabetic Order
-        arm_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
         base_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        camera_link:
+        Link_1:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        slider_link:
+        Link_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Link_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Link_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Link_5:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -123,7 +141,7 @@ Visualization Manager:
     Fixed Frame: world
     Frame Rate: 30
   Name: root
-  Tools:
+  Tools: 
     - Class: rviz_default_plugins/Interact
       Hide Inactive Objects: true
     - Class: rviz_default_plugins/MoveCamera
