@@ -190,3 +190,5 @@
     <xacro:include filename="example_gazebo.xacro" />
 
 </robot>
+
+<!-- test -->
