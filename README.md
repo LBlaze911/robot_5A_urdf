@@ -112,9 +112,26 @@ ros2 launch urdf_example rsp_sim.launch.py
 
 ros2 topic pub -l /set_joint_trajectory trajectory_msgs/msg/JointTrajectory ‘{header: {frame_id: world}, joint_names: [slider_joint, arm_joint], points: [  {positions: {0.8,0.6}} ]}’
  
-
 ## Camera
 
 1st terminal: 	ros2 launch urdf_example rsp_sim.launch.py world:=~/test_world.world
 
 2nd terminal: 	rviz2 -d src/urdf_example/view_robot.rviz
+
+## Message type
+
+Show the topics:
+
+ros2 topic list
+
+<br />
+
+Find the type of the topics:
+
+ros2 topic type {name of the topic}
+
+<br />
+
+Show the content of a message:
+
+ros2 interface show {type of the topic}
