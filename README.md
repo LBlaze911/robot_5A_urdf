@@ -64,6 +64,8 @@ Launch empty world:
 
 ros2 launch gazebo_ros gazebo.launch.py
 
+<br />
+
 Launch seesaw world:
 
 gazebo /usr/share/gazebo-11/worlds/seesaw.world
