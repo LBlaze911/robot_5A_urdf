@@ -118,7 +118,7 @@ ros2 topic pub -l /set_joint_trajectory trajectory_msgs/msg/JointTrajectory ‘{
 
 2nd terminal: 	rviz2 -d src/urdf_example/view_robot.rviz
 
-## Message type
+## Topics
 
 Show the topics:
 
@@ -135,3 +135,9 @@ ros2 topic type {name of the topic}
 Show the content of a message:
 
 ros2 interface show {type of the topic}
+
+<br />
+
+Show what the message content:
+
+ros2 topic echo {name of the topic}
